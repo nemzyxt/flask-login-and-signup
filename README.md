@@ -20,8 +20,12 @@ In the project directory, run:
 To set up the postgres database, ensure you have
 Postgres installed on your system
 Run the queries in db.sql in Postgres to create the database and users table
+
 ![img](https://github.com/nemzyxt/flask-login-and-signup/blob/main/screenshots/pic10.png?raw=true)
+
+
 Also, make sure to replace the credentials in app.py with your own 
+
 ![img](https://github.com/nemzyxt/flask-login-and-signup/blob/main/screenshots/pic11.png?raw=true)
 
 ## Running the app
