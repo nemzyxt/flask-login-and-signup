@@ -34,10 +34,7 @@ In the project directory still, run:
 
 ### 'python app.py'
 
-This will start the flask server on port 3000 of localhost .
+This will start the flask server on port 5000 of localhost .
 Open [http://localhost/5000](http://localhost:5000) to view it in your browser .
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Enjoy :)
