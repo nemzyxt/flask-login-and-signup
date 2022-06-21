@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        div {
+            margin: auto;
+            padding: 25px;
+            background-color: green;
+            margin-top: 160px;
+            width: 35%;
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: white;
+            border-radius: 8px;
+            opacity: 0.8;
+        }
+
+        div:hover {
+            opacity: 1;
+        }
+
+        p {
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+        a {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>| {{ usrnm }}</p>
+        <p>Welcome to the Home Page</p>
+        <p>Click <a href="/logout/">here</a> to log out</p>
+    </div>
+</body>
+</html>

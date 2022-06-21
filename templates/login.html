@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <title>Log In</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <img src="{{ url_for('static', filename='logo.jpg') }}" />
+        </div>
+        <div class="form-container">
+            <form action="/login/" method="post">
+                <input type="text" name="usrnm" placeholder="Username" required />
+                <br />
+                <br />
+                <input type="password" name="passwd" placeholder="Password" required />
+                <br />
+                {% if msg %}
+                <p class="error">{{ msg }}</p>
+                {% else %}
+                <br />
+                {% endif %}
+                <button type="submit">Log In</button>
+            </form>
+            <br />
+            <hr />
+            <br />
+            <div>
+                <button class="signup" onclick="document.location.href='/signup/'">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
